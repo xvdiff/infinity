@@ -11,6 +11,8 @@
  */
 package com.xvdiff.infinity.ui.activities;
 
+import android.content.Context;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -24,13 +26,17 @@ import java.util.List;
 
 public class BoardsAdapter extends BaseAdapter {
 
+    private static final int TYPE_ITEM = 0;
+    private static final int TYPE_SEPARATOR = 1;
+
+    private LayoutInflater _layoutInflater;
+
     private int _lastSelectedPosition = 0;
     private Spinner _spinner;
 
-    public BoardsAdapter() {
-
-        
-
+    public BoardsAdapter(Context context) {
+        _layoutInflater = (LayoutInflater) context
+                                .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
 
     @Override
@@ -40,21 +46,17 @@ public class BoardsAdapter extends BaseAdapter {
 
     @Override
     public View getView(int id, View view, ViewGroup viewGroup) {
-        return null;
+       
     }
 
     @Override
     public Object getItem(int id) {
-        return 0;
+        return id;
     }
 
     @Override
     public long getItemId(int id) {
         return 0;
-    }
-
-    public void onBoardSelected(String board) {
-
     }
 
 }

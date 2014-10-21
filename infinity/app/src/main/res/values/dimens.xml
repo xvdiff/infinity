@@ -2,4 +2,6 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="nav_drawer_board_item_heading">16dp</dimen>
+    <dimen name="nav_drawer_board_item_desc">14dp</dimen>
 </resources>
