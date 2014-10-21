@@ -1,0 +1,63 @@
+gps/
+Clover/app/keys.properties
+Clover/app/version.properties
+
+# Built application files
+*.apk
+*.ap_
+
+# Files for the Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+
+# Gradle files
+.gradle/
+build/
+
+
+#built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio
+.idea
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+.gradle
+build/
+#*.iml
+
+## Windows detritus
+#############
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac crap
+.DS_Store
+
